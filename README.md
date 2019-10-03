@@ -3,27 +3,27 @@
 ---
 ### File Descriptions
 
-List.c
-		ADT involving a doubly linked list underlying data structure (and private Node struct), providing easy access to front & back elements. Involves a "cursor" for iterating through List element in either direction.
+#### List.c
+ADT involving a doubly linked list underlying data structure (and private Node struct), providing easy access to front & back elements. Involves a "cursor" for iterating through List element in either direction.
 
-List.h
-		List header file. the List "interface" that contains prototypes for List ADT Operations.
+#### List.h
+List header file. the List "interface" that contains prototypes for List ADT Operations.
 
-Graph.c
-		ADT made up of an array of Lists at stores the adjacency lists of vertices. Also contains arrays for colors, distances, and parents of vertices for BFS.
+#### Graph.c
+ADT made up of an array of Lists at stores the adjacency lists of vertices. Also contains arrays for colors, distances, and parents of vertices for BFS.
 
-Graph.h
-		Graph header file. the Graph "interface" that contains prototypes for Graph ADT Operations.
+#### Graph.h
+Graph header file. the Graph "interface" that contains prototypes for Graph ADT Operations.
 
-GraphTest.c
-		A test client for Graph ADT for testing & debugging purposes.
+#### GraphTest.c
+A test client for Graph ADT for testing & debugging purposes.
 
-FindPath.c
-		A client module that utilizes the List ADT to perform Breadth First Search and prints its results. FindPath.c accepts an input file of given vertices and prints the adjacency list, as well as distance and shortest paths to an output file after running BFS.
+#### FindPath.c
+A client module that utilizes the List ADT to perform Breadth First Search and prints its results. FindPath.c accepts an input file of given vertices and prints the adjacency list, as well as distance and shortest paths to an output file after running BFS.
 
-Makefile
-		Makefile for FindPath (main program).
+#### Makefile
+Makefile for FindPath (main program).
 		
-README
-		(This file) List of submitted files for Programming Assignment 4.
+#### README
+(This file) List of submitted files for Programming Assignment 4.
 
